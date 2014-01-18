@@ -4299,3 +4299,81 @@ Started GET "/assets/ironman.jpg" for 127.0.0.1 at 2014-01-18 13:27:52 +0000
 
 
 Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-01-18 13:27:52 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-18 15:49:03 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies" WHERE (released_on <= '2014-01-18 15:49:03.292536') ORDER BY released_on desc
+  Rendered movies/index.html.erb within layouts/application (71.4ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_flashes.html.erb (0.7ms)
+  Rendered layouts/_sidebar.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 197ms (Views: 171.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2014-01-18 15:49:03 +0000
+
+
+Started GET "/assets/elements.css?body=1" for 127.0.0.1 at 2014-01-18 15:49:03 +0000
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-01-18 15:49:03 +0000
+
+
+Started GET "/assets/forms.css?body=1" for 127.0.0.1 at 2014-01-18 15:49:03 +0000
+
+
+Started GET "/assets/buttons.css?body=1" for 127.0.0.1 at 2014-01-18 15:49:03 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-18 15:49:03 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-18 15:49:03 +0000
+
+
+Started GET "/assets/movies.css?body=1" for 127.0.0.1 at 2014-01-18 15:49:03 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-18 15:49:03 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-18 15:49:03 +0000
+
+
+Started GET "/assets/movies.js?body=1" for 127.0.0.1 at 2014-01-18 15:49:03 +0000
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-01-18 15:49:03 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-18 15:49:03 +0000
+
+
+Started GET "/assets/ironman.jpg" for 127.0.0.1 at 2014-01-18 15:49:03 +0000
+
+
+Started GET "/assets/spiderman.jpg" for 127.0.0.1 at 2014-01-18 15:49:03 +0000
+
+
+Started GET "/assets/superman.jpg" for 127.0.0.1 at 2014-01-18 15:49:03 +0000
+
+
+Started GET "/assets/catwoman.jpg" for 127.0.0.1 at 2014-01-18 15:49:03 +0000
+
+
+Started GET "/assets/batman.jpg" for 127.0.0.1 at 2014-01-18 15:49:03 +0000
+
+
+Started GET "/assets/background.jpg" for 127.0.0.1 at 2014-01-18 15:49:03 +0000
+
+
+Started GET "/assets/arrow.png" for 127.0.0.1 at 2014-01-18 15:49:03 +0000
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-01-18 15:49:03 +0000
+
+
+Started GET "/assets/add.png" for 127.0.0.1 at 2014-01-18 15:49:03 +0000
